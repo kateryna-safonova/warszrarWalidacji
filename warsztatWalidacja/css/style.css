@@ -1,0 +1,37 @@
+form#newsForm {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 16px;
+    padding: 30px;
+}
+
+input, label {
+    display: inline-block;
+}
+
+label{
+    margin-top: 20px;
+}
+input[type='text'], input[type='email']{
+    height: 20px;
+    width: 50%;
+}
+button[type='submit'] {
+    background-color: orange;
+    font-weight: 70px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border: 0;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+ul#errors{
+    color: red;
+    padding-left: 20px ;
+}
+
+button[type='submit']:hover {
+    background-color: brown;
+}
